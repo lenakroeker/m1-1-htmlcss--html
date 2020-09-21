@@ -58,7 +58,8 @@ g) `td`
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
   <h1></h1>
 ## Q10 - In which situation can you use self closing tags?
-    tags which have no content (ex. <img/>, <iframe/>)
+    tags which have no content
+     (ex. <img\/>, <iframe/>)
 ## Q11 - What is autofilling and why is it important?
     autocomplete(?) allows browsers to predict values for input fields based on previously entered values. It makes filling out forms super easy and reduces the amount of time people have to change their mind about it!
 ## Q12 - Which attributes are always present in an img element?
