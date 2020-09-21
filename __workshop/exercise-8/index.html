@@ -1,1 +1,49 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <form>
+            <h1>Registration form</h1>
+            <label for="uname">Username</label>
+            <input name="uname" type="text" required />
+            <label for="password">Password</label>
+            <input name="password" type="password" required />
+            <label for="email">Email</label>
+            <input name="email" type="email" required />
+
+            <h2>Which taxi do you require?</h2>
+            <input type="radio" id="car" value="car" name="taxi" checked="checked">
+            <label for="car">Car</label>
+            <input type="radio" id="van" value="van" name="taxi">
+            <label for="van">Van</label>
+            <input type="radio" id="tuktuk" value="tuktuk" name="taxi">
+            <label for="tuktuk">Tuk Tuk</label>
+
+            <h2>Choose your extras</h2>
+            <input type="checkbox" id="baby-seat" name="baby-seat" value="baby-seat">
+            <label for="baby-seat">Baby seat</label>
+            <input type="checkbox" id="wheelchair" name="wheelchair" value="wheelchair">
+            <label for="wheelchair">Wheelchair access</label>
+            <input type="checkbox" id="privacy" name="privacy" value="privacy">
+            <label for="privacy">Privacy windows</label>
+
+            <h2>Where would you like us you pick you up?</h2>
+                <label for="pickup-location">Pickup Location</label>
+                <select id="pickup-location" name="pickup-location">
+                    <option value="" disabled selected>Select One</option>
+                    <option value="downtown">downtown</option>
+                    <option value="suburbs">suburbs</option>
+                    <option value="train-station">train-station</option>
+                    <option value="airport">airport</option>
+                </select>
+
+            <h2>Additional Instructions</h2>
+            <label for="Additional">Special</label>
+            <textarea name="additional" id="additional" placeholder="Provide special instructions here"></textarea>
+            
+            <input type="submit" value="submit">
+
+        </form>
+
+    </body>
+</html>
